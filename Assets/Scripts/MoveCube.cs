@@ -20,6 +20,7 @@ public class MoveCube : MonoBehaviour
 
         xPos = Mathf.Clamp(xPos, -max.x, max.x);
         zPos = Mathf.Clamp(zPos, -max.x, max.z);
+        
 
         transform.position = new Vector3(xPos, 0, zPos);
     }
